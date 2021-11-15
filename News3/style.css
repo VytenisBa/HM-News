@@ -1,0 +1,62 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    
+    padding: 20px;
+    margin: 0;
+}
+header {
+    background-color: rgb(240, 233, 224);
+    width: 100%;
+}
+h1 {
+    color: red;
+}
+h1 >img {
+    width: 20px;
+    height: auto;
+    
+}
+table {
+    flex: auto;
+    width: 100%;
+}
+.table2 {
+    border-bottom: 1px solid black;
+}
+
+.cell1 {
+    width: 400px;
+}
+.cell2 {
+    width: 700px;
+}
+.cell3, .cell4, .cell5 {
+    width: 200px;
+    text-align: center;
+}
+
+.icon-cell1 {
+    background-color: red;
+    color: white;
+    border: 1px solid black;
+    border-top-left-radius: 15%;
+    border-top-right-radius: 15%;
+}
+.icon-cell2 {
+    padding: 0px;
+    color: red;
+    font-size: 40px;
+    text-align: center;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+
+}
+.icon-cell3 {
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+    border-bottom-right-radius: 15%;
+    border-bottom-left-radius: 15% ;
+}

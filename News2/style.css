@@ -1,0 +1,82 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    
+    padding: 20px;
+    margin: 0;
+}
+table {
+    border-collapse: separate;
+    border-spacing: 15px;
+}
+.table1 {
+    background-color: blue;
+    border-collapse: collapse;
+    width: 100%;
+    color: white;
+    
+    
+}
+.table2 {
+    border-collapse: collapse;
+    width: 100%;
+}
+footer {
+    padding: 20px;
+    text-align:left;
+}
+
+.cell1,
+.cell2,
+.cell3 {
+    size: 33%;
+}
+.cell1 {
+    text-align: left;
+}
+.cell2 {
+    text-align: left;
+    text-transform: uppercase;
+}
+.cell3 {
+    text-align: end;
+}
+.text1 {
+    column-gap: 100px;
+}
+.name {
+    font-weight: bold;
+    text-align: center;
+}
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 90px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+
+}
+h2 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 60px;
+    padding: 0;
+    margin: 0;
+}
+h3 {
+    color: red;
+}
+td {
+    padding: 20px;
+}
+
+.profile {
+    width: 400px;
+    height: 300px;
+}
+.coupon {
+    width: 400px;
+    height: 300px;
+    border: 4px dashed black;
+}
