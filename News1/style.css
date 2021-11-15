@@ -7,6 +7,16 @@ body {
     
 }
 
+
+a {
+    color: purple;
+    text-decoration: none;
+}
+.first-link {
+    color: rgb(13, 142, 228);
+    text-decoration: none;
+}
+
 table {
     border-bottom: 1px solid black;
     width: 100%;
