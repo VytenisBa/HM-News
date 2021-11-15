@@ -54,34 +54,12 @@ a {
 .content-border {
     border-left: 2px solid black;
 }
-.icon-cell1 {
-    background-color: red;
-    color: white;
-    border: 1px solid black;
-    border-top-left-radius: 15%;
-    border-top-right-radius: 15%;
-    text-align: center;
-}
-.icon-cell2 {
-    padding: 0px;
-    color: red;
-    font-size: 40px;
-    font-weight: bold;
-    text-align: center;
-    border-left: 1px solid black;
-    border-right: 1px solid black;
 
-}
-.icon-cell3 {
-    background-color: black;
-    color: white;
-    border: 1px solid black;
-    border-bottom-right-radius: 15%;
-    border-bottom-left-radius: 15% ;
-    text-align: center;
-}
 .divmain{
-	width: 100px;
+    padding: 0px;
+    margin: 0px;
+	width: 80px;
+    
 }
 .div1 {
 	background-color: red;
@@ -93,13 +71,15 @@ a {
     
 }
 .div2 {
-	    padding: 0px;
+	padding: 10px;
     color: red;
-    font-size: 40px;
+    font-size: 60px;
     font-weight: bold;
     text-align: center;
     border-left: 1px solid black;
     border-right: 1px solid black;
+    height: 80px;
+    
 }
 .div3 {
 	    background-color: black;
