@@ -72,7 +72,6 @@ a {
 
 .content-border {
     border-left: 2px solid black;
-
 }
 
 .cal-cell {
@@ -83,6 +82,7 @@ a {
     padding: 0px;
     margin: 0px;
     width: 80px;
+
 
 }
 
@@ -116,11 +116,13 @@ a {
     border-bottom-left-radius: 15%;
     text-align: center;
 }
+
 .s-down {
     display: inline-block;
-    transform: rotate(90deg);   
+    transform: rotate(90deg);
 }
+
 .s-up {
     display: inline-block;
-    transform: rotate(270deg);   
+    transform: rotate(270deg);
 }
