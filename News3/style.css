@@ -80,3 +80,32 @@ a {
     border-bottom-left-radius: 15% ;
     text-align: center;
 }
+.divmain{
+	width: 100px;
+}
+.div1 {
+	background-color: red;
+    color: white;
+    border: 1px solid black;
+    border-top-left-radius: 15%;
+    border-top-right-radius: 15%;
+    text-align: center;
+    
+}
+.div2 {
+	    padding: 0px;
+    color: red;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+}
+.div3 {
+	    background-color: black;
+    color: white;
+    border: 1px solid black;
+    border-bottom-right-radius: 15%;
+    border-bottom-left-radius: 15% ;
+    text-align: center;
+}
