@@ -2,13 +2,21 @@
     box-sizing: border-box;
 }
 body {
-    
-    padding: 20px;
+    padding: opx;
     margin: 0;
 }
 header {
-    background-color: rgb(240, 233, 224);
+    background-color: rgb(230, 229, 228);
     width: 100%;
+    height: 100px;
+    padding: 10px;
+}
+button {
+    background-color: red;
+    color: white;
+    border-radius: 15%;
+    width: 80px;
+    height: 30px;
 }
 h1 {
     color: red;
@@ -24,8 +32,15 @@ table {
 }
 .table2 {
     border-bottom: 1px solid black;
+    padding: 10px;
 }
-
+.table2 td {
+    padding: 20px;
+}
+a {
+    color: rgb(13, 142, 228);
+    text-decoration: none;
+}
 .cell1 {
     width: 400px;
 }
@@ -36,18 +51,22 @@ table {
     width: 200px;
     text-align: center;
 }
-
+.content-border {
+    border-left: 2px solid black;
+}
 .icon-cell1 {
     background-color: red;
     color: white;
     border: 1px solid black;
     border-top-left-radius: 15%;
     border-top-right-radius: 15%;
+    text-align: center;
 }
 .icon-cell2 {
     padding: 0px;
     color: red;
     font-size: 40px;
+    font-weight: bold;
     text-align: center;
     border-left: 1px solid black;
     border-right: 1px solid black;
@@ -59,4 +78,5 @@ table {
     border: 1px solid black;
     border-bottom-right-radius: 15%;
     border-bottom-left-radius: 15% ;
+    text-align: center;
 }
