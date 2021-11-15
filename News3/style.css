@@ -116,3 +116,11 @@ a {
     border-bottom-left-radius: 15%;
     text-align: center;
 }
+.s-down {
+    display: inline-block;
+    transform: rotate(90deg);   
+}
+.s-up {
+    display: inline-block;
+    transform: rotate(270deg);   
+}
