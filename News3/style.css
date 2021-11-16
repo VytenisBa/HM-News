@@ -1,5 +1,6 @@
 * {
     box-sizing: border-box;
+    font-family: sans-serif;
 }
 
 body {
@@ -102,6 +103,8 @@ a {
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     text-align: center;
+    font-size: 14px;
+    
 }
 
 .div2 {
@@ -123,6 +126,7 @@ a {
     border-bottom-right-radius: 10px;
     border-bottom-left-radius: 10px;
     text-align: center;
+    font-size: 14px;
 }
 
 .s-down {
