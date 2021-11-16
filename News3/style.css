@@ -63,6 +63,7 @@ h1>img {
 a {
     color: rgb(13, 142, 228);
     text-decoration: none;
+    margin-right: 10px;
 }
 
 .coments {
@@ -106,6 +107,10 @@ a {
     text-align: center;
     font-size: 14px;
     height: 25px;
+    /*
+    display: grid;
+    place-self: center;
+    */
  
 }
 
