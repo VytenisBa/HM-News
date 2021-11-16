@@ -1,30 +1,37 @@
 * {
     box-sizing: border-box;
 }
+
 body {
-    
+
     padding: 20px;
     margin: 0;
 }
+
 table {
     border-collapse: separate;
     border-spacing: 15px;
 }
+
 .table1 {
     background-color: blue;
     border-collapse: collapse;
     width: 100%;
     color: white;
-    
-    
+
+
 }
+
 .table2 {
     border-collapse: collapse;
     width: 100%;
 }
+
 footer {
-    padding: 20px;
-    text-align:left;
+
+    margin-top: -20px;
+    text-align: left;
+    padding-top: 0px;
 }
 
 .cell1,
@@ -32,23 +39,31 @@ footer {
 .cell3 {
     size: 33%;
 }
+
 .cell1 {
     text-align: left;
 }
+
 .cell2 {
     text-align: left;
     text-transform: uppercase;
 }
+
 .cell3 {
     text-align: end;
 }
-.text1 {
-    column-gap: 100px;
+
+.colum1,
+.colum2,
+.colum3 {
+    padding: 20px;
 }
+
 .name {
     font-weight: bold;
     text-align: center;
 }
+
 h1 {
     text-align: center;
     text-transform: uppercase;
@@ -57,6 +72,7 @@ h1 {
     margin-top: 20px;
 
 }
+
 h2 {
     text-align: center;
     text-transform: uppercase;
@@ -64,9 +80,11 @@ h2 {
     padding: 0;
     margin: 0;
 }
+
 h3 {
     color: red;
 }
+
 td {
     padding: 20px;
 }
@@ -74,9 +92,16 @@ td {
 .profile {
     width: 400px;
     height: 300px;
+    border: 4px solid black;
 }
+
 .coupon {
     width: 400px;
     height: 300px;
     border: 4px dashed black;
+}
+
+.container {
+    display: flex;
+    padding: 20px;
 }
