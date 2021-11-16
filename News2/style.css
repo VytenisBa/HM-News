@@ -1,5 +1,6 @@
 * {
     box-sizing: border-box;
+    font-family: sans-serif;
 }
 
 body {
@@ -8,18 +9,21 @@ body {
     margin: 0;
 }
 
+
 table {
     border-collapse: separate;
     border-spacing: 15px;
 }
 
+tr {
+    width: 10px;
+}
 .table1 {
     background-color: blue;
     border-collapse: collapse;
     width: 100%;
+    
     color: white;
-
-
 }
 
 .table2 {
@@ -70,6 +74,7 @@ h1 {
     font-size: 90px;
     margin-bottom: 20px;
     margin-top: 20px;
+    font-family: 'Times New Roman', Times, serif
 
 }
 
