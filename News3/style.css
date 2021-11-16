@@ -32,19 +32,32 @@ h1>img {
 
 }
 
-table {
-    flex: auto;
+
+
+.container {
     width: 100%;
+    display: flex;
+    padding: 20px;
+    border-bottom: 1px solid black;
+}
+
+.table1 {
+    display: flex;
+
 }
 
 .table2 {
-    border-bottom: 1px solid black;
-    padding: 0px;
+    padding-right: 90px;
+    padding-top: 20px;
 }
 
-.table2 td {
-    padding: 20px;
+.content-border {
+    display: block;
+    border-left: 2px solid black;
+    padding-left: 20px;
+
 }
+
 
 a {
     color: rgb(13, 142, 228);
@@ -70,9 +83,7 @@ a {
     text-align: center;
 }
 
-.content-border {
-    border-left: 2px solid black;
-}
+
 
 .cal-cell {
     width: 20px;
