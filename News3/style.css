@@ -14,11 +14,7 @@ header {
     padding: 15px;
    
 }
-.table1 {
-    display: flex;
-    align-items: center;
-    
-}
+
 button {
     background-color: red;
     color: white;
@@ -44,7 +40,11 @@ h1>img {
     border-bottom: 1px solid black;
 }
 
-
+.table1 {
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
+}
 
 .table2 {
     padding-right: 90px;
@@ -69,7 +69,7 @@ a {
 }
 
 .cell1 {
-    width: 400px;
+    width: 500px;
 }
 
 .cell2 {
@@ -93,8 +93,6 @@ a {
     padding: 0px;
     margin: 0px;
     width: 80px;
-
-
 }
 
 .div1 {
@@ -104,7 +102,6 @@ a {
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     text-align: center;
-
 }
 
 .div2 {
