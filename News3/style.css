@@ -91,9 +91,10 @@ a {
 }
 
 .divmain {
-    padding: 0px;
+    padding-bottom: 20px;
     margin: 0px;
-    width: 80px;
+    width: 90px;
+    
 }
 
 .div1 {
@@ -104,8 +105,8 @@ a {
     border-top-right-radius: 10px;
     text-align: center;
     font-size: 14px;
-    height: 20px;
-    
+    height: 25px;
+ 
 }
 
 .div2 {
@@ -116,7 +117,9 @@ a {
     text-align: center;
     border-left: 1px solid black;
     border-right: 1px solid black;
-    height: 75px;
+    height: 80px;
+    
+    
 
 }
 
@@ -128,7 +131,7 @@ a {
     border-bottom-left-radius: 10px;
     text-align: center;
     font-size: 14px;
-    height: 20px;
+    height: 25px;
 }
 
 .s-down {
