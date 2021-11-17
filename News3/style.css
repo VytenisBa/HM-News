@@ -15,7 +15,6 @@ header {
     padding: 15px;
 
 }
-
 button {
     background-color: red;
     color: white;
@@ -61,12 +60,16 @@ h1>img {
 a {
     color: rgb(13, 142, 228);
     text-decoration: none;
+   
+}
+.a1 {
+    color: rgb(13, 142, 228);
+    text-decoration: none;
     margin-right: 10px;
 }
 
 .coments {
     color: gray;
-
 }
 
 .cell1 {
@@ -94,7 +97,6 @@ a {
     padding-bottom: 20px;
     margin: 0px;
     width: 90px;
-
 }
 
 .div1 {
@@ -106,11 +108,6 @@ a {
     text-align: center;
     font-size: 16px;
     height: 25px;
-    /*
-    display: grid;
-    place-self: center;
-    */
-
 }
 
 .div2 {
@@ -122,9 +119,6 @@ a {
     border-left: 1px solid black;
     border-right: 1px solid black;
     height: 80px;
-
-
-
 }
 
 .div3 {
